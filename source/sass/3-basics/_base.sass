@@ -1,31 +1,110 @@
-html
-  // border-box box model allows us to add padding and border to our elements without increasing their size
-  box-sizing: border-box
-
-  // WAT IS THIS?!
-  // We inherit box-sizing: border-box; from our <html> selector
-*,
-*:before,
-*:after
-  box-sizing: inherit
-
-
+//IN THIS PROJECT ALL THE CSS WILL BE HERE COZ THERE IS NOT MUCH OF IT :)
+//(except for fonts and variables)
 body
-  //delete the background to apply your own style
-  background: #0d1218 url("../img/ep_naturalblack.png")
-  font-size: 14px
-  line-height: 1.6
-  font-size: 14px
-  color: black
-  -webkit-font-smoothing: antialiased
-  -webkit-text-size-adjust: 100%
-
-
-.wrapper
-  width: 100%
-  max-width: 1100px
-  margin: 0 auto
-
-
-section
-  display: -webkit-box
+  background: $primary
+  font-family: 'Roboto', sans-serif
+  margin: 0
+h1.logo
+  color: white
+  font-family: 'Pacifico', cursive
+  font-size: 4em
+#container
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: top
+  align-items: center
+#form-box
+  background: #ffffff
+  //relative position because we will have absolute elements inside
+  position: relative
+  width: 600px
+  border-top-right-radius: 5px
+  border-top-left-radius: 5px
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.1), 0 6px 10px 5px rgba(0,0,0,0.1), 0 8px 10px -5px rgba(0,0,0,0.2)
+  //we will control this "animation" with javascript later (you can put it in hover now, and see the effect)
+  transition: transform 0.1s ease-in-out
+  &:hover
+    //transform: translate(0px, 10px)
+//this .close class doesn't exist yet, we will add it later with javascript (basically for disappearing an element)
+#form-box.close
+  width: 0
+  padding: 0
+  overflow: hidden
+  translation: 0.8s ease-in-out
+  box-shadow: - 16px 24px 2px rgba(0,0,0,0)
+#next-btn
+  position: absolute
+  right: 20px
+  bottom: 10px
+  font-size: 40px
+  color: $primary
+  float: right
+  cursor: pointer
+  z-index: 2
+  &:hover
+    color: $secondary
+#prev-btn
+  position: absolute
+  font-size: 18px
+  left: 30px
+  top: 12px
+  z-index: 2
+  color: $light
+  float: right
+  cursor: pointer
+  &:hover
+    color: $secondary
+#input-group
+  position: relative
+  padding: 30px 20px 20px 20px
+  margin: 10px 60px 10px 10px
+  //we will change this opacity later with javascript, bcs its invisible now :D
+  opacity: 0
+  transition: opacity 0.3s ease-in-out
+  input
+    position: relative
+    width: 100%
+    border: none
+    font-size: 20px
+    font-weight: bold
+    outline: 0
+    background: transparent
+    box-shadow:  none
+  #input-label
+    position: absolute
+    pointer-events: none
+    top: 32px
+    left: 20px
+    font-size: 20px
+    font-weight: bold
+    transition: 0.2s ease-in-out
+  //right now the input text we write will be displayed over the input label text, so we want to make the input lebel taxet move up when we start typing, so we use the code bellow. Input:valid means when there is text in the field, bcs we have the 'required' attribute inside the html elemt for input field. So its becomes valid when we start typing and it does the code bellow it:
+  input:valid + #input-label
+    top: 6px
+    left: 42px
+    margin-left: 0 !important
+    font-size: 11px
+    font-weight: normal
+    color: $light
+#input-progress
+  border-bottom: 3px solid $primary
+  //now the width is set to zero, but we will want to change it with javascript to 100% later
+  width: 0
+  transition: width 0.6s ease-in-out
+#progress-bar
+  position: absolute
+  background: $secondary
+  height: $progress-height
+  //the same idea as width the input-progress width
+  width: 0
+  transition: width 0.5s ease-in-out
+//error will be put dinamically with javascript, if smthing goes wrong ofc
+.error
+  #input-progress
+    border-color: $error
+  #next-btn
+    color: $error
+@media (max-width: 700px)
+  #form-box
+    width: 80%
