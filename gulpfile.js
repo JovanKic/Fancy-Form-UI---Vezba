@@ -35,6 +35,7 @@ var styleSrc = 'source/sass/**/*.sass',
 // Compiles all SASS files
 gulp.task('sass', function() {
     gulp.src('source/sass/**/*.sass')
+        .pipe(sourcemaps.init())
         .pipe(plumber())
         .pipe(sass({
             style: 'compressed'
@@ -42,8 +43,8 @@ gulp.task('sass', function() {
         .pipe(rename({
             basename: 'main',
             suffix: '.min'
-          }))
-
+        }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('build/assets/css'));
 });
 

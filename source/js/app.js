@@ -10,7 +10,7 @@ var questions = [
 //Transition Times
 var shakeTime = 100; //Shake transition Time
 var switchTime = 200; //Transition Between Questions
-//Initialize Position At First Qustion
+//Initialize Position At First Question
 var position = 0;
 //Initialize DOM Elements
 //getElementById could be used instead of query selector, but this is more modern, and takes CSS selector as its only parameter, the only drawback is browser support
@@ -25,6 +25,12 @@ var formBox = document.querySelector('#form-box'),
 //EVENTS
 //get question on DOM load
 document.addEventListener('DOMContentLoaded', getQuestion);
+//inputField enter click
+inputField.addEventListener('keyup', function(e) {
+    if(e.keyCode == 13) {
+        validate();
+    }
+})
 //Next button click
 nextBtn.addEventListener('click',validate);
 //FUNCTIONS
@@ -62,7 +68,9 @@ function hideQuestion() {
 }
 //Transform to create shake motion
 function transform(x,y) {
-    formBox.style.transform = translate(x + 'px' + ',' + y + 'px');
+    console.log('x:'+x,'y:'+y);
+    formBox.style.transform = 'translate' + '(' + x + 'px' + ',' + y + 'px' +')';
+    // formBox.style.transform = `translate(${x}px, ${y}px)`;
 }
 //Validate field
 function validate() {
@@ -76,8 +84,48 @@ function validate() {
 //Field input fail
 function inputFail() {
     formBox.className = 'error';
+    //Repeat shake motion - set i to number of shakes (6 bcs 3 for left and 3 for right side)
+    for (var i=0; i<6; i++) {
+        setTimeout(transform, shakeTime*i, ((i%2)*2-1)*20, 0);
+        if(i == 5){
+            setTimeout(transform, shakeTime*6, 0, 0);
+        }
+        inputField.focus();
+    }
 }
 //Field input pass
 function inputPass() {
-
+    formBox.className = '';
+    setTimeout(transform, shakeTime*0, 0, 10);
+    setTimeout(transform, shakeTime*1, 0, 0);
+    //store answer in the array
+    questions[position].answer = inputField.value;
+    //Increment the position (change question)
+    position++;
+    //if new question hide current and get next
+    if(questions[position]){
+        hideQuestion();
+        getQuestion();
+    } else {
+        //remove if no more questions
+        hideQuestion();
+        formBox.className = 'close';
+        progress.style.width = '100%';
+        //form complete
+        formComplete();
+    }
+}
+//All field complete - show h1 with the class of end
+function formComplete() {
+    console.log(questions);
+    var h1 = document.createElement('h1');
+    h1.classList.add('end');
+    h1.appendChild(document.createTextNode('Thanks ' + questions[0].answer + ', you are now registered.'));
+    //we want it to fade in:
+    setTimeout(function() {
+        formBox.parentElement.appendChild(h1);
+        setTimeout(function() {
+            h1.style.opacity = 1;
+        }, 50);
+    }, 1000);
 }

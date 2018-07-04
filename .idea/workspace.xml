@@ -5,19 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/1-tools/_normalize.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/1-tools/_normalize.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/2-helpers/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/2-helpers/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/2-helpers/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/2-helpers/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_base.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_buttons.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_buttons.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_links.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_links.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_selection-colors.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/5-modules/_flex-video.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/5-modules/_flex-video.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/source/sass/6-pages/_page-home.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,16 +17,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.1109215">
+    <splitter split-orientation="vertical" split-proportion="0.33734939">
       <split-first>
         <splitter split-orientation="horizontal" split-proportion="0.49178404">
           <split-first>
-            <leaf>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/build/index.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="94">
-                      <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+                    <state relative-caret-position="171">
+                      <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
                     </state>
                   </provider>
                 </entry>
@@ -44,12 +34,12 @@
             </leaf>
           </split-first>
           <split-second>
-            <leaf>
-              <file leaf-file-name="_base.sass" pinned="false" current-in-tab="true">
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="_base.sass" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="651">
-                      <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+                    <state relative-caret-position="340">
+                      <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
                     </state>
                   </provider>
                 </entry>
@@ -63,11 +53,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="_typography.sass" pinned="false" current-in-tab="false">
+              <file leaf-file-name="_typography.sass" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_typography.sass">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="17">
-                      <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+                    <state relative-caret-position="34">
+                      <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
                     </state>
                   </provider>
                 </entry>
@@ -77,12 +67,12 @@
         </splitter>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/source/js/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+                <state relative-caret-position="389">
+                  <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -90,6 +80,11 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>close</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,9 +102,10 @@
         <option value="$PROJECT_DIR$/source/sass/main.sass" />
         <option value="$PROJECT_DIR$/source/sass/3-basics/_typography.sass" />
         <option value="$PROJECT_DIR$/source/sass/2-helpers/_variables.sass" />
-        <option value="$PROJECT_DIR$/source/sass/3-basics/_base.sass" />
         <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/source/js/app.js" />
+        <option value="$PROJECT_DIR$/source/sass/3-basics/_base.sass" />
       </list>
     </option>
   </component>
@@ -145,7 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,12 +223,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530620951195</updated>
-      <workItem from="1530620952354" duration="14396000" />
+      <workItem from="1530620952354" duration="14474000" />
+      <workItem from="1530698604720" duration="6885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14396000" />
+    <option name="totallyTimeSpent" value="21359000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,26 +245,26 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.05614823" />
-      <window_info id="Gulp" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17760618" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.055745166" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18050194" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,10 +274,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Fancy Form UI From Scratch - HTML, CSS3, JS &amp; Sass/fancy_form-master/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Fancy Form UI From Scratch - HTML, CSS3, JS &amp; Sass/fancy_form-master/js/main.js">
+    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/2-helpers/_variables.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_typography.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Fancy Form UI From Scratch - HTML, CSS3, JS &amp; Sass/fancy_form-master/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -341,17 +370,42 @@
     <entry file="file://$PROJECT_DIR$/source/sass/6-pages/_page-home.sass">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_typography.sass">
+    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Fancy Form UI From Scratch - HTML, CSS3, JS &amp; Sass/fancy_form-master/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="544">
+          <caret line="80" column="56" lean-forward="true" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../shoeApp-vezba/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="48" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Programiranje/Tutorijali/YouTube/Traversy Media/Fancy Form UI From Scratch - HTML, CSS3, JS &amp; Sass/fancy_form-master/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-424" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -362,17 +416,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_base.sass">
+    <entry file="file://$PROJECT_DIR$/source/sass/3-basics/_typography.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="389">
+          <caret line="98" column="46" lean-forward="true" selection-start-line="98" selection-start-column="46" selection-end-line="98" selection-end-column="46" />
         </state>
       </provider>
     </entry>
